@@ -1,0 +1,10 @@
+{
+  "name": "complex-component",
+  "type": "registry:component",
+  "title": "Complex Component",
+  "description": "A complex component showing hooks, libs and components.",
+  "dependencies": [],
+  "registryDependencies": [
+    "card"
+  ]
+}

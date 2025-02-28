@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-section-layout",
+  "type": "registry:component",
+  "title": "Restaurant Section Layout",
+  "description": "Flexible layout component for restaurant UI sections with decorative elements and spacing options",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "name": "section-layout.tsx",
+      "path": "registry/restaurant-components/layout/section-layout.tsx",
+      "type": "registry:component"
+    },
+    {
+      "name": "layout-demo.tsx",
+      "path": "registry/restaurant-components/layout/layout-demo.tsx",
+      "type": "registry:component"
+    },
+    {
+      "name": "page-layout-example.tsx",
+      "path": "registry/restaurant-components/layout/page-layout-example.tsx",
+      "type": "registry:component"
+    },
+    {
+      "name": "index.ts",
+      "path": "registry/restaurant-components/layout/index.ts",
+      "type": "registry:lib"
+    }
+  ]
+}

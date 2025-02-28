@@ -1,0 +1,10 @@
+{
+  "name": "food-gallery",
+  "type": "registry:component",
+  "title": "Food Gallery",
+  "description": "Beautiful food gallery with masonry layout, filtering, and lightbox functionality",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": []
+}

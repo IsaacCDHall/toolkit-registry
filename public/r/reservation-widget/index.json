@@ -1,0 +1,19 @@
+{
+  "name": "reservation-widget",
+  "type": "registry:component",
+  "title": "Restaurant Reservation Widget",
+  "description": "Interactive reservation form with date/time selection and guest information",
+  "dependencies": [
+    "date-fns",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "card",
+    "button",
+    "input",
+    "label",
+    "select",
+    "popover",
+    "calendar"
+  ]
+}

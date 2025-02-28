@@ -1,0 +1,12 @@
+{
+  "name": "menu-display",
+  "type": "registry:component",
+  "title": "Restaurant Menu Display",
+  "description": "Interactive menu display with category filtering and item details",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "tabs",
+    "badge"
+  ]
+}

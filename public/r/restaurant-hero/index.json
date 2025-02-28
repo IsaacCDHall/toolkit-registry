@@ -1,0 +1,11 @@
+{
+  "name": "restaurant-hero",
+  "type": "registry:component",
+  "title": "Restaurant Hero Section",
+  "description": "Hero section with configurable background image, headline, and CTA for restaurant sites",
+  "dependencies": [],
+  "registryDependencies": [
+    "button",
+    "image"
+  ]
+}

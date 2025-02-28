@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
+  "name": "bright-toolkit",
+  "homepage": "https://toolkit.bright-development.com",
   "items": [
     {
       "name": "hello-world",
@@ -57,6 +57,152 @@
         {
           "path": "registry/complex-component/hooks/use-pokemon.ts",
           "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "restaurant-hero",
+      "type": "registry:component",
+      "title": "Restaurant Hero Section",
+      "description": "Hero section with configurable background image, headline, and CTA for restaurant sites",
+      "registryDependencies": ["button", "image"],
+      "files": [
+        {
+          "path": "registry/restaurant-components/hero/hero.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/hero/use-parallax.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "menu-display",
+      "type": "registry:component",
+      "title": "Restaurant Menu Display",
+      "description": "Interactive menu display with category filtering and item details",
+      "registryDependencies": ["card", "tabs", "badge"],
+      "files": [
+        {
+          "path": "registry/restaurant-components/menu-display/menu-display.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/menu-display/menu-formatter.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "reservation-widget",
+      "type": "registry:component",
+      "title": "Restaurant Reservation Widget",
+      "description": "Interactive reservation form with date/time selection and guest information",
+      "registryDependencies": [
+        "card",
+        "button",
+        "input",
+        "label",
+        "select",
+        "popover",
+        "calendar"
+      ],
+      "dependencies": ["date-fns", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/restaurant-components/reservation/reservation-widget.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "testimonials-carousel",
+      "type": "registry:component",
+      "title": "Testimonials Carousel",
+      "description": "Interactive carousel to showcase customer testimonials, reviews and ratings",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/restaurant-components/testimonials/testimonials-carousel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/testimonials/testimonials-utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/restaurant-components/testimonials/testimonials-demo.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "food-gallery",
+      "type": "registry:component",
+      "title": "Food Gallery",
+      "description": "Beautiful food gallery with masonry layout, filtering, and lightbox functionality",
+      "registryDependencies": [],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/restaurant-components/food-gallery/food-gallery.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/food-gallery/gallery-utils.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/restaurant-components/food-gallery/gallery-demo.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "restaurant-page-home",
+      "type": "registry:component",
+      "title": "Restaurant Home Page Template",
+      "description": "Complete restaurant homepage template with hero, featured menu, testimonials, and reservation",
+      "registryDependencies": [
+        "restaurant-hero",
+        "menu-display",
+        "reservation-widget",
+        "testimonials-carousel",
+        "food-gallery"
+      ],
+      "files": [
+        {
+          "path": "registry/page-templates/restaurant-home/restaurant-home.tsx",
+          "type": "registry:page",
+          "target": "app/page.tsx"
+        }
+      ]
+    },
+    {
+      "name": "restaurant-section-layout",
+      "type": "registry:component",
+      "title": "Restaurant Section Layout",
+      "description": "Flexible layout component for restaurant UI sections with decorative elements and spacing options",
+      "registryDependencies": [],
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/restaurant-components/layout/section-layout.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/layout/layout-demo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/layout/page-layout-example.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/restaurant-components/layout/index.ts",
+          "type": "registry:lib"
         }
       ]
     }

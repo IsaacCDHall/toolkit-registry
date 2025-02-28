@@ -1,0 +1,67 @@
+{
+  "name": "bright-toolkit",
+  "count": 10,
+  "registry": "https://toolkit.bright-development.com/r",
+  "items": [
+    {
+      "name": "hello-world",
+      "type": "registry:component",
+      "title": "Hello World",
+      "description": "A simple hello world component"
+    },
+    {
+      "name": "example-form",
+      "type": "registry:component",
+      "title": "Example Form",
+      "description": "A contact form with Zod validation."
+    },
+    {
+      "name": "complex-component",
+      "type": "registry:component",
+      "title": "Complex Component",
+      "description": "A complex component showing hooks, libs and components."
+    },
+    {
+      "name": "restaurant-hero",
+      "type": "registry:component",
+      "title": "Restaurant Hero Section",
+      "description": "Hero section with configurable background image, headline, and CTA for restaurant sites"
+    },
+    {
+      "name": "menu-display",
+      "type": "registry:component",
+      "title": "Restaurant Menu Display",
+      "description": "Interactive menu display with category filtering and item details"
+    },
+    {
+      "name": "reservation-widget",
+      "type": "registry:component",
+      "title": "Restaurant Reservation Widget",
+      "description": "Interactive reservation form with date/time selection and guest information"
+    },
+    {
+      "name": "testimonials-carousel",
+      "type": "registry:component",
+      "title": "Testimonials Carousel",
+      "description": "Interactive carousel to showcase customer testimonials, reviews and ratings"
+    },
+    {
+      "name": "food-gallery",
+      "type": "registry:component",
+      "title": "Food Gallery",
+      "description": "Beautiful food gallery with masonry layout, filtering, and lightbox functionality"
+    },
+    {
+      "name": "restaurant-page-home",
+      "type": "registry:component",
+      "title": "Restaurant Home Page Template",
+      "description": "Complete restaurant homepage template with hero, featured menu, testimonials, and reservation"
+    },
+    {
+      "name": "restaurant-section-layout",
+      "type": "registry:component",
+      "title": "Restaurant Section Layout",
+      "description": "Flexible layout component for restaurant UI sections with decorative elements and spacing options"
+    }
+  ]
+}

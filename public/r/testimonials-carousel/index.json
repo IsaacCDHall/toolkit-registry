@@ -1,0 +1,12 @@
+{
+  "name": "testimonials-carousel",
+  "type": "registry:component",
+  "title": "Testimonials Carousel",
+  "description": "Interactive carousel to showcase customer testimonials, reviews and ratings",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "restaurant-page-home",
+  "type": "registry:component",
+  "title": "Restaurant Home Page Template",
+  "description": "Complete restaurant homepage template with hero, featured menu, testimonials, and reservation",
+  "dependencies": [],
+  "registryDependencies": [
+    "restaurant-hero",
+    "menu-display",
+    "reservation-widget",
+    "testimonials-carousel",
+    "food-gallery"
+  ]
+}

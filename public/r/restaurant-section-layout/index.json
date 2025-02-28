@@ -1,0 +1,8 @@
+{
+  "name": "restaurant-section-layout",
+  "type": "registry:component",
+  "title": "Restaurant Section Layout",
+  "description": "Flexible layout component for restaurant UI sections with decorative elements and spacing options",
+  "dependencies": [],
+  "registryDependencies": []
+}
